@@ -554,3 +554,94 @@ footer {
   transform: scale(1.1);
   box-shadow: 0 6px 28px rgba(37, 211, 102, 0.6);
 }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+
+  /* NAVEGACIÓN */
+  nav {
+    padding: 16px 24px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  /* HERO */
+  .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  /* SERVICIOS */
+  .servicios {
+    padding: 80px 24px;
+  }
+
+  .servicios-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* GALERÍA */
+  .galeria {
+    padding: 80px 24px;
+  }
+
+  .galeria-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* RESEÑAS */
+  .reseñas {
+    padding: 80px 24px;
+  }
+
+  .reseñas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* NOSOTROS */
+  .nosotros {
+    padding: 80px 24px;
+  }
+
+  /* UBICACIÓN */
+  .ubicacion {
+    padding: 80px 24px;
+    grid-template-columns: 1fr;
+  }
+
+  .ubicacion-mapa {
+    height: 300px;
+  }
+
+  /* CONTACTO */
+  .contacto {
+    padding: 80px 24px;
+  }
+
+  .contacto-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 40px 24px 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  /* WHATSAPP FLOTANTE */
+  .whatsapp-flotante {
+    bottom: 20px;
+    right: 20px;
+    width: 52px;
+    height: 52px;
+  }
+}
