@@ -404,6 +404,59 @@ nav {
   border: 2px solid #333;
 }
 
+/* ── CONTACTO GRID ── */
+.contacto-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contacto-info .btn {
+  margin-top: 16px;
+  display: inline-block;
+}
+
+.contacto-formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contacto-formulario input,
+.contacto-formulario textarea,
+.contacto-formulario select {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #f0f0f0;
+  padding: 14px 18px;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  transition: border-color 0.3s;
+  width: 100%;
+}
+
+.contacto-formulario select option {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.contacto-formulario input:focus,
+.contacto-formulario textarea:focus,
+.contacto-formulario select:focus {
+  border-color: #c9a84c;
+}
+
+.contacto-formulario .btn {
+  width: 100%;
+  padding: 16px;
+  font-size: 15px;
+  text-align: center;
+}
+
 /* ── FOOTER ── */
 footer {
   background-color: #0a0a0a;
